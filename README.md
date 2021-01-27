@@ -1,4 +1,4 @@
-# Frontend Mentor: Profile card component
+# Frontend Mentor: Intro component with sign-up form
 
 <p align="center"><strong align="center">My solution for Frontend Mentor <a href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1">Intro component with sign-up form</a> challenge</strong></p>
 
