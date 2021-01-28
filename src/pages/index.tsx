@@ -1,6 +1,9 @@
 import React from 'react'
 import Seo from '@/components/Seo'
 
+// "[Field Name] cannot be empty"
+// "Looks like this is not an email"
+
 function IndexPage() {
   return (
     <main>

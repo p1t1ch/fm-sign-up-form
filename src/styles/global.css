@@ -6,6 +6,10 @@
   html {
     @apply scroll-behaviour-smooth;
   }
+
+  body {
+    @apply bg-red text-white text-base font-medium;
+  }
 }
 
 @layer utilities {
