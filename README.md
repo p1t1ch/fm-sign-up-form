@@ -12,3 +12,6 @@
 </p>
 
 For this challenge:
+
+1. Practice with Tailwind (round 9)
+1. Remembered how to use Formik v2 & Yup
