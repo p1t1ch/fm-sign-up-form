@@ -1,8 +1,6 @@
 import React from 'react'
 import Seo from '@/components/Seo'
-
-// "[Field Name] cannot be empty"
-// "Looks like this is not an email"
+import Input from '@/components/Input'
 
 function IndexPage() {
   return (
@@ -22,42 +20,10 @@ function IndexPage() {
           <span className="font-bold">Try it free 7 days</span> then $20/mo. thereafter
         </div>
         <form noValidate className="grid gap-4 md:gap-5 p-6 md:p-10 bg-white shadow rounded">
-          <label htmlFor="firstName" className="sr-only">
-            First Name
-          </label>
-          <input
-            type="text"
-            id="firstName"
-            placeholder="First Name"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
-          />
-          <label htmlFor="lastName" className="sr-only">
-            Last Name
-          </label>
-          <input
-            type="text"
-            id="lastName"
-            placeholder="Last Name"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
-          />
-          <label htmlFor="emailAddress" className="sr-only">
-            Email Address
-          </label>
-          <input
-            type="email"
-            id="emailAddress"
-            placeholder="Email Address"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
-          />
-          <label htmlFor="password" className="sr-only">
-            Password
-          </label>
-          <input
-            type="password"
-            id="password"
-            placeholder="Password"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
-          />
+          <Input id="firstName" label="First Name" type="text" />
+          <Input id="lastName" label="Last Name" type="text" />
+          <Input id="emailAddress" label="Email Address" type="email" />
+          <Input id="password" label="Password" type="password" />
           <div>
             <button
               type="submit"
