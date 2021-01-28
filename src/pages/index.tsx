@@ -29,7 +29,7 @@ function IndexPage() {
             type="text"
             id="firstName"
             placeholder="First Name"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small"
+            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
           />
           <label htmlFor="lastName" className="sr-only">
             Last Name
@@ -38,7 +38,7 @@ function IndexPage() {
             type="text"
             id="lastName"
             placeholder="Last Name"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small"
+            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
           />
           <label htmlFor="emailAddress" className="sr-only">
             Email Address
@@ -47,7 +47,7 @@ function IndexPage() {
             type="email"
             id="emailAddress"
             placeholder="Email Address"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small"
+            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
           />
           <label htmlFor="password" className="sr-only">
             Password
@@ -56,12 +56,12 @@ function IndexPage() {
             type="password"
             id="password"
             placeholder="Password"
-            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small"
+            className="text-input font-semibold h-14 px-8 text-neutral placeholder:text-opacity-75 border border-gray rounded-small focus:border-purple caret"
           />
           <div>
             <button
               type="submit"
-              className="mb-2 h-14 px-8 text-center shadow-inset rounded-small bg-green font-semibold uppercase text-cta w-full"
+              className="mb-2 h-14 px-8 text-center shadow-inset rounded-small bg-green font-semibold uppercase text-cta w-full hover:bg-green-light focus-visible:bg-green-light transition-colors"
             >
               Claim your free trial
             </button>

@@ -10,6 +10,11 @@
   body {
     @apply bg-red text-white text-base font-medium;
   }
+
+  input:focus,
+  button:focus {
+    @apply outline-none;
+  }
 }
 
 @layer utilities {
@@ -23,5 +28,9 @@
 
   .grid-area {
     grid-area: single;
+  }
+
+  .caret {
+    caret-color: #5e54a4;
   }
 }

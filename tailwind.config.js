@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       red: '#FF7979',
       green: '#38CC8B',
+      'green-light': '#77E2B3',
       purple: '#5E54A4',
       neutral: '#3D3B48',
       light: '#BAB7D4',
@@ -41,6 +42,11 @@ module.exports = {
         desktop: 'url(../images/bg-intro-desktop.png)',
         mobile: 'url(../images/bg-intro-mobile.png)',
       },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ['focus-visible'],
     },
   },
 }
